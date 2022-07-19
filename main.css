@@ -1,0 +1,90 @@
+.nav__upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+}
+
+.header {
+  box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.3);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.upper__right {
+  color: green;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: currentColor;
+}
+
+.fa-home {
+  font-size: 1.25em;
+}
+
+.get-started {
+  border: 1px solid green;
+  border-radius: 3px ;
+  padding: 5px 15px 5px 15px;
+}
+
+.get-started:hover {
+  background-color: green;
+  color: white;
+}
+
+.nav__lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 0 10px 0;
+  margin: 10px;
+  color: gray;
+}
+
+.content {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.external_links a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.fa-arrow-up-right-from-square {
+  padding-left: 5px;
+}
+
+.grid {
+  font-weight: bold;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr fr;
+  max-width: 60%;
+}
+
+.grid a {
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:20px;
+}
+
+.footer__right {
+  color: gray;
+}
+
+.footer__right a {
+  padding: 10px;
+}
+
+
